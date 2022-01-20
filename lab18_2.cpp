@@ -9,11 +9,11 @@ void myString(char *&p,int N){
 
 int main(){
 	char *p;
-	int N;	
+	int N;
 	cout << "N = ";
-	cin >> N;		
+	cin >> N;
 	myString(p,N);
-	cout << p;	
+	cout << p;
 	delete [] p;
 	return 0;
 }
